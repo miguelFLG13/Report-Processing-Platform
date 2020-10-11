@@ -3,4 +3,5 @@ from django.conf.urls import include
 
 
 urlpatterns = [
+    path('api/', include('api.urls')),
 ]
