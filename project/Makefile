@@ -29,4 +29,4 @@ log-web:
 	docker-compose logs web
 
 run-tests:
-	docker exec web python manage.py test --settings=pdf_to_text_api.settings.test --pattern="*_tests.py"
+	docker exec web python manage.py test --settings=pdf_to_text_api.settings.tests --pattern="*_tests.py"
