@@ -1,0 +1,2 @@
+use_cases.extract_pdf_text_use_case.services.pdf_to_text_file_converter.PdfToTextFileConverter:
+    fqn: use_cases.extract_pdf_text_use_case.services.pdf_to_text_file_converter.PdfToTextFileConverter

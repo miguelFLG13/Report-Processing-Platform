@@ -2,3 +2,4 @@ Django==3.1.2
 djangorestframework==3.12.1
 gunicorn==19.9.0
 ipdb==0.13.4
+pypendency==0.1.0
