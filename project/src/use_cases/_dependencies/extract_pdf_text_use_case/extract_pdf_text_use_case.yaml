@@ -1,0 +1,4 @@
+use_cases.extract_pdf_text_use_case.extract_pdf_text_use_case.ExtractPdfTextUseCase:
+    fqn: use_cases.extract_pdf_text_use_case.extract_pdf_text_use_case.ExtractPdfTextUseCase
+    args:
+        - '@use_cases.extract_pdf_text_use_case.services.pdf_to_text_file_converter.PdfToTextFileConverter'
