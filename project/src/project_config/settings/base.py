@@ -9,7 +9,7 @@ SECRET_KEY = os.environ['SECRET_KEY']
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': 'pdf_to_text_api.sqlite3',
+        'NAME': 'project_db.sqlite3',
     },
 }
 
@@ -26,6 +26,7 @@ THIRD_PARTY_APPS = [
 ]
 
 PROJECT_APPS = [
+    'apps.reports',
 ]
 
 INSTALLED_APPS += THIRD_PARTY_APPS + PROJECT_APPS
@@ -56,7 +57,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'pdf_to_text_api.wsgi.application'
+WSGI_APPLICATION = 'project_config.wsgi.application'
 
 LANGUAGE_CODE = 'es-ES'
 
@@ -89,7 +90,7 @@ REST_FRAMEWORK = {
 }
 
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'pdf_to_text_api/static'),
+    os.path.join(BASE_DIR, 'project_config/static'),
 ]
 
-ROOT_URLCONF = 'pdf_to_text_api.urls.urls_local'
+ROOT_URLCONF = 'project_config.urls.urls_local'

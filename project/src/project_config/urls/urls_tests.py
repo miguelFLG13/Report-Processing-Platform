@@ -3,5 +3,5 @@ from django.urls import path
 
 
 urlpatterns = [
-     path('v1/', include('pdf_to_text_api.urls.base_urls')),
+     path('v1/', include('project_config.urls.base_urls')),
 ]
