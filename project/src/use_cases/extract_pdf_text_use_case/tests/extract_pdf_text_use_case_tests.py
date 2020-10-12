@@ -1,12 +1,9 @@
-from unittest import mock
+from unittest import mock, TestCase 
 
-from django.test import TestCase
-
-from classes.file import File
+from classes.file import File, PDF_CONTENT_TYPE, TXT_CONTENT_TYPE
 
 from use_cases.extract_pdf_text_use_case.extract_pdf_text_use_case import ExtractPdfTextUseCase
 from use_cases.extract_pdf_text_use_case.services.pdf_to_text_file_converter import PdfToTextFileConverter
-from use_cases.extract_pdf_text_use_case.conf import PDF_CONTENT_TYPE, TXT_CONTENT_TYPE
 
 
 class TestExtractPdfTextUseCase(TestCase):

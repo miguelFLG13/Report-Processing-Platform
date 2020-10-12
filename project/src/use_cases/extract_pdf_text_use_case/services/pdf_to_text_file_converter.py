@@ -1,8 +1,7 @@
-from classes.file import File
+from classes.file import File, PDF_CONTENT_TYPE, TXT_CONTENT_TYPE
 from mocks.pdf_to_text_module import PdfToTextModuleMock
 
 from use_cases.extract_pdf_text_use_case.services.file_to_text_file_converter import FileToTextFileConverter
-from use_cases.extract_pdf_text_use_case.conf import PDF_CONTENT_TYPE, TXT_CONTENT_TYPE
 
 
 class PdfToTextFileConverter(FileToTextFileConverter):
