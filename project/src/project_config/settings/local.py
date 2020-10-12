@@ -4,5 +4,5 @@ DEBUG = True
 
 ALLOWED_HOSTS = [LOCAL_IP, 'web']
 
-ROOT_URLCONF = 'pdf_to_text_api.urls.urls_local'
+ROOT_URLCONF = 'project_config.urls.urls_local'
 

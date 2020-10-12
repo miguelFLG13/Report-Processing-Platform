@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'pdf_to_text_api.settings.local')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'project_config.settings.local')
 
 application = get_wsgi_application()
