@@ -1,0 +1,5 @@
+use_cases.get_report_information_use_case.get_report_information_use_case.GetReportInformationUseCase:
+    fqn: use_cases.get_report_information_use_case.get_report_information_use_case.GetReportInformationUseCase
+    args:
+        - '@use_cases.get_report_information_use_case.services.regex_report_information_processor.RegexReportInformationProcessor'
+        - '@repositories.reports.dj_report_repository.DjReportsRepository'
