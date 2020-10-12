@@ -1,0 +1,2 @@
+repositories.reports.dj_structure_repository.DjStructureRepository:
+    fqn: repositories.reports.dj_structure_repository.DjStructureRepository
