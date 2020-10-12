@@ -5,4 +5,4 @@ RUN mkdir /src
 WORKDIR /src
 ADD ./src /src
 RUN pip install -r requirements.pip
-CMD python manage.py migrate; gunicorn pdf_to_text_api.wsgi -b 0.0.0.0:80
+CMD python manage.py migrate; gunicorn project_config.wsgi -b 0.0.0.0:80
